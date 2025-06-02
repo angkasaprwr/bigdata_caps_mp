@@ -20,8 +20,8 @@ data = list(collection.find({"source": "detik"}))
 df = pd.DataFrame(data)
 
 # Tampilkan kolom untuk debug
-st.write("Kolom yang tersedia:", df.columns)
-st.write(df.head())
+#st.write("Kolom yang tersedia:", df.columns)
+#st.write(df.head())
 
 # Tangani kolom 'date' yang mungkin tidak ada
 if 'date' in df.columns:
