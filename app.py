@@ -33,7 +33,7 @@ df['tahun'] = df['date'].dt.year
 df['bulan'] = df['date'].dt.month
 
 # Judul aplikasi
-st.title("Visualisasi Artikel Detik.com tentang Pendaki")
+st.title("Visualisasi Artikel Detik.com tentang MountainPrep")
 
 # Tombol refresh scraping
 if st.button("Scraping Terbaru (Update Data)"):
